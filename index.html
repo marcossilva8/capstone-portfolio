@@ -1,43 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
-</head>
-<body>
-    <h1>Marcos Portfolio's</h1>
-    <img src="https://picsum.photos/200" alt="temporary random image">
-
-    <h2>Sumary</h2>
-    <p>I am hardworking, dedicated and focused on my goals, I also have basic knowledge in programming.</p>
-
-    <h2>Education</h2>
-    <p>
-        <ul>
-            <li>Systems Development - Etec Jardim Ângela (2022-2024)</li>
-        </ul>
-    </p>
-
-    <h2>Work Experience</h2>
-    <p>None...</p>
-
-    <h2>Skills</h2>
-    <p>
-        <ul>
-            <li>Knowledge about programming.</li>
-            <li>Well organized.</li>
-        </ul>
-    </p>
-
-    <h2>Awards and Certifications</h2>
-    <p>None...</p>
-
-    <h2>Others</h2>
-    <p><a href="./public/hobbies.html">My Hobbies</a></p>
-    <p><a href="./public/contact.html">Contact Me</a></p>
-
-    <hr>
-    <footer>Developed by: Marcos Antonio.</footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <!-- Font Import Title -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Import Text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <div class="top-site">
+      <div class="up-title">
+        <h1>Marcos <span class="blue-title">Antonio</span></h1>
+        <p>Web Developer Portfolio</p>
+      </div>
+      <div class="bottom-image">
+        <img
+          src="./assets/images/img-code.jpg"
+          alt="code in CSS for design"
+          height="300"
+        />
+      </div>
+    </div>
+    <div class="middle-container">
+      <div class="introduction">
+        <div class="img-container">
+          <img src="./assets/images/person2.jpg" alt="a photo of me" />
+        </div>
+        <div class="text-introduction">
+          <h2>About <span class="blue-title">me</span></h2>
+          <p>
+            Olá, meu nome é Marcos Antonio da Silva, atualmente tenho 17 anos e
+            nasci em São Paulo, Brasil. Estou cursando meu último ano em
+            Desenvolvimentos de Sistemas em uma Etec e pretendo continuar na
+            área no futuro.
+          </p>
+          <p>
+            Sou uma pessoa muito introvertida mas que me esforço todo dia para
+            melhorar e aprender cada vez mais como ser humano. Meus hobbie
+            favorito é jogar algum jogo FPS ou assistir live de meus streamers
+            favoritos, mas também gosto de fazer outras coisas como, por
+            exemplo, estudar ou até mesmo programar.
+          </p>
+        </div>
+        <div class="education">
+          <h2>Formações</h2>
+          <ul>
+            <li>Ensino Técino Superior - Etec Jardim Ângela (2022-2024)</li>
+            <li>
+              Ensino Fundamental I e II - E.E.Professora Leila Sabino
+              (2013-2021)
+            </li>
+          </ul>
+        </div>
+        <div class="skills-container">
+          <h2>Minhas <span class="blue-title">skills</span></h2>
+          <div class="skills">
+            <h3>Desenvolvimento</h3>
+            <p>
+              Aprendi a programar recentemente, em 2022, mas tenho uma boa base
+              por conta da escola. Tenho conhecimento mais avançado no Front-End
+              (HTML e CSS) e um pouco no Back-End (MySQL e C#). Pretendo fazer
+              mais cursos e faculdades para ampliar meu conhecimento e me tornar
+              um ótimo Desenvolvedor Full-Stack.
+            </p>
+          </div>
+          <div class="skills">
+            <h3>Foco e Dedicação</h3>
+            <p>
+              Por não possuir nenhuma experiência profissional e pouco
+              conhecimento na área, me dedico a cada dia para aprender mais
+              sobre Programação Front e Back End, aprender boas praticas
+              profissionais e me tornar uma pessoa mais agradável em ambiente de
+              trabalho.
+            </p>
+          </div>
+        </div>
+        <div class="works">
+          <h2>Meus <span class="blue-title">trabalhos</span></h2>
+          <div class="work-input">
+            <h3>Calculadora com HTML, CSS e JS</h3>
+            <a href="#"
+              ><img
+                src="./assets/images/calculadora-print.png"
+                height="300"
+                alt="website de uma calculadora funcional"
+            /></a>
+            <p>
+              Um site que meu professor pediu para fazer utilizando as
+              linguagens citadas anteriormente. É um site simples, que pretendo
+              mexer no futuro para melhorar a responsividade e design. Clique na
+              imagem para acessar o site.
+            </p>
+          </div>
+        </div>
+        <div class="contact">
+          <h2>Fale <span class="blue-title">comigo</span></h2>
+          <p>
+            Gostou do meu portfólio e de meus trabalhos ou tem algum feedback
+            interessante? Entre em contato comigo através de meu email
+            <span class="mark-email">marcosant2170@gmail.com</span> para dar seu
+            feedback.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="social-media">
+        <a href="#">Instagram</a>
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+      </div>
+      <div class="copyright">&copy; Marcos Antonio - 2024</div>
+    </footer>
+  </body>
 </html>
