@@ -1,39 +1,72 @@
 /* 
-    font-family: "Nanum Myeongjo", serif;
+    font-family: "Raleway", sans-serif;
+
+    COLOR
+
+    #222831 - Cinza mais escuro
+    #31363F - Cinza Escuro
+    #76ABAE - Azul
+    #EEEEEE - Branco
 */
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
 }
 
 body{
     background-color: #31363F;
 }
 
-.blue-title{
-    display: block;
-    color: #76ABAE;
-    font-size: 2.3rem;
+.container{
+    width: 100%;
 }
 
-.top-site{
-    width: 100%;
-    height: 100vh;
+.intro .container{
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
+    padding: 3rem 2rem;
+}
+
+.intro .container h1{
+    font-size: 3rem;
+    color: #EEEEEE;
+    text-align: center;
+}
+
+.intro .container span{
+    color: #76ABAE;
+    display: block;
+    font-size: 4rem;
+}
+
+.intro .container h2{
+    color: #EEEEEE;
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.intro .container .image-introduction{
+    display: flex;
+    align-items: center;
+}
+
+.intro .container .image-introduction img{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.452);
+}
+
+.about-me .container{
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    flex-direction: column;
 }
 
-.top-site > .up-title{
-    font-family: "Nanum Myeongjo", serif;
-    color: #EEEEEE;
-}
-
-.top-site > .up-title h1{
-    font-size: 3rem;
-    margin-bottom: 10px;
+.about-me .container .text-about{
+    text-align: center;
 }
