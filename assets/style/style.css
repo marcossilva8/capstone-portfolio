@@ -3,7 +3,7 @@
 
     COLOR
 
-    #222831 - Cinza mais escuro
+    #1c2129 - Cinza mais escuro
     #31363F - Cinza Escuro
     #76ABAE - Azul
     #EEEEEE - Branco
@@ -47,7 +47,7 @@ body{
 .intro .container h2{
     color: #EEEEEE;
     font-weight: normal;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 15px;
 }
 
@@ -65,8 +65,50 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 2rem 2rem;
 }
 
 .about-me .container .text-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-me .container .text-about h2{
+    color: #76ABAE;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.about-me .container .text-about p{
+    color: white;
+    line-height: 30px;
     text-align: center;
+}
+
+.about-me .container .more-about{
+    margin: 50px 0;
+}
+
+.about-me .container .more-about a{
+    background-color: #1c2129;
+    padding: 1rem;
+    border-radius: 30px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.311);
+    cursor: pointer;
+    text-decoration: none;
+    margin: 500px 0;
+    color: rgb(151, 151, 151);
+}
+
+.about-me .container .social-media{
+    display: flex;
+    gap: 20px;
+}
+
+.about-me .container .social-media .logo-social{
+    color: #1c2129;
+    font-size: 4rem;
+
 }
