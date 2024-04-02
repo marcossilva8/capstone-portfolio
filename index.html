@@ -23,6 +23,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+    <!-- Icons Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/ebaee3d1c3.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Porfólio | Marcos Antonio</title>
   </head>
   <body>
@@ -47,7 +52,7 @@
           <h2>Sobre mim</h2>
           <p>
             Desenvolvedor Front-End cursando Desenvolvimentos de Sistemas e o
-            Curso Web Development Complete da Udemy.
+            Curso The Complete 2024 Web Development Bootcamp na Udemy.
           </p>
           <div class="more-about">
             <a href="#">Mais sobre mim.</a>
@@ -69,30 +74,15 @@
     </div>
     <div class="skills">
       <div class="container">
-        <h2>Skills</h2>
-        <div class="card-skill">
-          <div class="logo-skill">
-            <img src="./assets/images/html.svg" alt="logo html" />
+        <h2>Habilidades</h2>
+        <div class="cards-container">
+          <div class="row-skills">
+            <div class="card-login"><i class="fa-brands fa-html5"></i></div>
+            <div class="card-login"><i class="fa-brands fa-css3-alt"></i></div>
           </div>
-        </div>
-        <div class="card-skill">
-          <div class="logo-skill">
-            <img src="./assets/images/css.svg" alt="logo css" />
-          </div>
-        </div>
-        <div class="card-skill">
-          <div class="logo-skill">
-            <img src="./assets/images/js.svg" alt="logo javascript" />
-          </div>
-        </div>
-        <div class="card-skill">
-          <div class="logo-skill">
-            <img src="./assets/images/mysql.svg" alt="logo mysql" />
-          </div>
-        </div>
-        <div class="card-skill">
-          <div class="logo-skill">
-            <img src="./assets/images/c_sharp.svg" alt="logo c sharp" />
+          <div class="row-skills">
+            <div class="card-login"><i class="fa-brands fa-js"></i></div>
+            <div class="card-login"><i class="fa-brands fa-react"></i></div>
           </div>
         </div>
       </div>
@@ -106,31 +96,35 @@
             Entre em contato comigo através de alguma das informações abaixo, ou
             me mande um email pelo formulário a seguir.
           </p>
-          <div class="contacts-input">
-            <img src="./assets/images/call.svg" alt="telefone" />
-            <p>+55 (11) 94314-9170</p>
-          </div>
-          <div class="contacts-input">
-            <img src="./assets/images/mail.svg" alt="email" />
-            <p>marcosant2170@gmail.com</p>
+          <div class="contacts-phone-email">
+            <div class="contacts-input">
+              <i class="fa-solid fa-phone"></i>
+              <p>+55 (11) 94314-9170</p>
+            </div>
+            <div class="contacts-input">
+              <i class="fa-solid fa-envelope"></i>
+              <p>marcosant2170@gmail.com</p>
+            </div>
           </div>
         </div>
         <div class="form-message">
-          <form action="#">
-            <div class="input-form">
-              <input type="text" name="nome" id="nome" placeholder="Nome" />
-            </div>
-            <div class="input-form">
-              <input type="email" name="email" id="email" placeholder="Email" />
-            </div>
-            <div class="input-form">
-              <textarea
-                name="message"
-                id="message"
-                cols="30"
-                rows="10"
-                placeholder="Mensagem"
-              ></textarea>
+          <form action="#" autocomplete="off">
+            <div class="input-box">
+              <div class="input-form">
+                <input type="text" name="nome" id="nome" placeholder="Nome" />
+              </div>
+              <div class="input-form">
+                <input type="email" name="email" id="email" placeholder="Email" />
+              </div>
+              <div class="input-form">
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="50"
+                  rows="10"
+                  placeholder="Mensagem"
+                ></textarea>
+              </div>
             </div>
             <div class="button-form">
               <button>Enviar</button>
